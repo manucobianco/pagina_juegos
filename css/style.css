@@ -1,0 +1,29 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/******  NAV  *****/
+nav{
+  border: solid 1px black;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+nav .nav_logo{
+  float: left;
+  width: 20%;
+  height: 100%;
+  border: solid 1px black;
+}
+nav .nav_links{
+  display: flex;
+  width: 60%;
+}
+
+nav .nav_profile_card{
+  float: right;
+  border: solid 1px black;
+  height: 100%;
+  width: 20%;
+}
