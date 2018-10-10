@@ -59,6 +59,7 @@ nav .nav_profile_card p{
 /******  FILTROS  *****/
 .cont-filtros{
   margin-top:15px;
+  margin-left: 5px;
   height: 100%;
   background: gray;
   width: 15%;
@@ -78,4 +79,45 @@ nav .nav_profile_card p{
 .filtro-list li{
   padding: 10px 15px;
   list-style: none;
+}
+/******  PRINCIPAL  *****/
+.cont-principal{
+    width: calc(85% - 15px);
+    height: auto;
+    background: blue;
+    position: absolute;
+    right: 0;
+    margin-top:15px;
+    padding-bottom: 15px;
+}
+/******  CAROUSEL  *****/
+.cont-carousel{
+    background: red;
+    width: 90%;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+.cont-ultimos-juegos{
+
+    background: green;
+    height: 180px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+
+}
+/******  OFERTAS  *****/
+.cont-ofertas{
+    background: red;
+    height: 180px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.ofertas-title{
+    text-align: left;
+    height:17px;
+    background:yellow;
+    padding: 5px 15px;
 }
