@@ -7,7 +7,7 @@ body{
 nav{
   border: solid 1px black;
   width: 100%;
-  height: 30px;
+  height: 60px;
   display: flex;
 }
 nav .nav_logo{
@@ -15,28 +15,46 @@ nav .nav_logo{
   width: 20%;
   height: 100%;
   border: solid 1px black;
+  cursor: pointer;
+}
+nav .nav_logo img{
+  margin: auto;
+  display: block;
 }
 nav .nav_links{
   display: flex;
   width: 60%;
 }
 nav .nav_links p{
-  margin: auto auto auto auto;
+  margin: auto;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
 }
-nav .nav_links input{
-  margin: auto auto auto auto;
+nav .nav_links div{
+  display: flex;
+  margin: auto;
+}
+nav .nav_links div i{
+  margin-left: 2px;
+  cursor: pointer;
 }
 nav .nav_profile_card{
   float: right;
   border: solid 1px black;
   height: 100%;
   width: 20%;
+  display: flex;
 }
-
-
+nav .nav_profile_card img{
+  height: 80%;
+  margin: auto 10px auto 10px;
+  border-radius: 50%;
+}
+nav .nav_profile_card p{
+  margin: auto;
+}
 
 /******  FILTROS  *****/
 .cont-filtros{
