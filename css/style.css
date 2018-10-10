@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
   margin: 0px;
   padding: 0px;
@@ -21,13 +20,23 @@ nav .nav_links{
   display: flex;
   width: 60%;
 }
-
+nav .nav_links p{
+  margin: auto auto auto auto;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+nav .nav_links input{
+  margin: auto auto auto auto;
+}
 nav .nav_profile_card{
   float: right;
   border: solid 1px black;
   height: 100%;
   width: 20%;
 }
+
+
 
 /******  FILTROS  *****/
 .cont-filtros{
@@ -36,6 +45,8 @@ nav .nav_profile_card{
   background: gray;
   width: 15%;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  /* text-transform: uppercase; */
 }
 .filtro-categoria{
   text-align: center;
