@@ -98,6 +98,34 @@ nav .nav_profile_card p{
     margin-top: 15px;
     margin-left: 5%;
 }
+.carousel{
+    background: gray;
+    width: 70%;
+    display: inline-block;
+    height: 100%;
+}
+/******  DESCRIPCION  *****/
+.cont-descripcion{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    float: right;
+    background: green;
+    /* position: absolute; */
+    top: 0;
+}
+.descripcion-title{
+    padding: 5px 15px;
+    background: red;
+    margin-bottom: 15px;
+}
+.descripcion-text{
+    background: yellow;
+    height: auto;
+    padding: 15px;
+    max-height: 80%;
+}
+/******  ULTIMOS JUEGOS  *****/
 .cont-ultimos-juegos{
 
     background: green;
