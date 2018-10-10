@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   margin: 0px;
   padding: 0px;
@@ -26,4 +27,26 @@ nav .nav_profile_card{
   border: solid 1px black;
   height: 100%;
   width: 20%;
+}
+
+/******  FILTROS  *****/
+.cont-filtros{
+  margin-top:15px;
+  height: 100%;
+  background: gray;
+  width: 15%;
+  position: absolute;
+}
+.filtro-categoria{
+  text-align: center;
+  padding: 5px;
+  background: blue;
+}
+.filtro-list{
+  padding: 0;
+  margin: 0;
+}
+.filtro-list li{
+  padding: 10px 15px;
+  list-style: none;
 }
