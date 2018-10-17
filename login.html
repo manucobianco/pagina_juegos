@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
   </head>
   <body>
@@ -29,27 +30,29 @@
         <p>Idioma</p>
       </div>
     </nav>
-    <div class="cont-filtros">
-      <div class="filtro-categoria">
-        Categoria
-      </div>
-      <ul class="filtro-list">
-        <li>Item</li>
-        <li>Item</li>
-      </ul>
-    </div>
-    <div class="cont-principal">
-      <div class="cont-carousel">
-          <div class="carousel"></div>
-          <div class="cont-descripcion">
-              <div class="descripcion-title">Titulo</div>
-              <div class="descripcion-text">Detalle</div>
+    <div class="cont-general">
+      <div class="login">
+        <div class="login-container">
+          <p class="titulo">inicia sesión</p>
+          <div class="login_input">
+            <label for="usuario">Nombre usuario o Email</label>
+            <input type="text" name="usuario" placeholder="Nombre Usuario">
           </div>
+          <div class="login_input">
+            <label for="password">Contraseña</label>
+            <label class="sugerencia" for="password">Entre 4 y 16 caracteres</label>
+            <input type="password" name="password" placeholder="Contraseña">
+          </div>
+          <div class="check_box">
+            <input type="checkbox" name="mantener">
+            <label class="mantener" for="mantener">Recordarme</label>
+          </div>
+
+          <button type="button" name="iniciarSesion">Iniciar Sesión</button>
+          <label class="login_ayuda" for="iniciarSesion">Tengo problemas para iniciar sesión</label>
+        </div>
       </div>
-      <div class="cont-ultimos-juegos"></div>
-      <div class="cont-ofertas">
-        <div class="ofertas-title">Ofertas</div>
-        <div class="ofertas-media"></div>
+      <div class="registrar">
       </div>
     </div>
     <footer></footer>
