@@ -55,8 +55,8 @@ img.img-carousel{
 .img-tabs{
     position: absolute;
     width: 30%;
-    margin: -40px 30%;
-    height: 30px;
+    margin: 15px 40%;
+    bottom: 0;
 }
 .tab{
     width: 20px;
@@ -168,6 +168,7 @@ img.img-carousel{
     position: relative; 
     height: 400px;
     box-shadow: 0 0 15px #1D334A;
+    margin-top: 15px;
 }
 .cont-cards-right{
     width: 30%;
@@ -179,9 +180,23 @@ img.img-carousel{
 .card-mini{
     height: 150px;
     background: #1D334A;
-    position: absolute;
+    position: relative;
+    margin-top: 15px;
     width: 100%;
     box-shadow: 0 0 15px #1D334A;
+}
+.ranking{
+    height: 300px;
+    
+}
+ol.ranking{
+    margin: 15px;
+}
+ol.ranking li{
+    color: white;
+    width: 90%;
+    border-bottom: dotted 1px white;
+    
 }
 .card-mini-title{
     text-align: center;
