@@ -206,7 +206,7 @@ ol.ranking li{
 }
 
 .card-title{
-    width: 45%;
+    width: 50%;
     font-size: 28px;
     margin-left: 8px;
     padding: 5px 15px;
@@ -328,7 +328,7 @@ ol.ranking li{
     width: calc(45% - 18px);
     display: inline-flex;
     padding-right: 15px;
-    border-right: solid 4px #0ab332;
+    border-right: dotted 1px #0ab332;
     
 }
 .content-recomendado {
