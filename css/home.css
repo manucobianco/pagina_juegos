@@ -261,3 +261,17 @@
   color: #53d672;
 
 }
+.pill {
+  text-align: center;
+  display: inline-block;
+  /* line-height: 70px; */
+  background: #319649;
+  height: 21px;
+  color: white;
+  width: 21px;
+}
+.pills{
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 25px;
+}

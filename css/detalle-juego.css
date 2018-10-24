@@ -2,13 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #c0cad8;
+    
   }
-.cont-principal{
-    width: 100%;
-    margin-top: 15px;
-    background:#c0cad8;
-}
+
+/*
 .cont-carousel-detalle{
     position: relative;
     width: 80%;
@@ -17,7 +14,7 @@ body{
     overflow: hidden;
     margin-left: calc(10%);
     box-shadow: 0px 0px 30px#1D334A;
-}
+}*/
 .flecha{
     color: gray;
     font-size: 50px;
@@ -66,7 +63,7 @@ img.img-carousel{
     margin-right: 10px; 
     display: inline-block;
 }
-.cont-descripcion{
+/* .cont-descripcion{
     position: absolute;
     right: 0;
     width: 200px;
@@ -74,8 +71,8 @@ img.img-carousel{
     border-radius: 0 10px 10px 0;
     /* left: 100%; */
     /* display: -webkit-box; */
-    background-color: rgba(0,0,0,0.5);
-}
+    /*background-color: rgba(0,0,0,0.5);
+} */
 .descripcion-title{
     display: block;
     width: calc(100% - 30px);
@@ -87,18 +84,7 @@ img.img-carousel{
     /* padding: 15px; */
     
 }
-.descripcion-text{
-       /* position: absolute; */
-       width: calc(100% - 30px);
-       height: 100px;
-       /* padding: 15px; */
-       color: white;
-       margin: 10px auto;
-       font-family: sans-serif;
-       font-size: 15px;
-       border-bottom: solid 1px;
-       /* bottom: 0; */
-}
+
 .descripcion-vermas{
     display: flex;
     position: relative;
@@ -113,7 +99,7 @@ img.img-carousel{
 .comprar{
     color: white;
     height: 40px;
-    background: darkgreen;
+    background: #53d672;
     position: absolute;
     bottom: 0px;
     margin: 5%;
@@ -125,8 +111,10 @@ img.img-carousel{
     display: inline;
     line-height: 40px;
     position: absolute;
-    width: 50%;
+    color: black;
+    width: 45%;
     text-align: center;
+    font-size: 23px;
 }
 .comprar-text a{
     text-decoration: none;
@@ -140,10 +128,10 @@ img.img-carousel{
     width: 50%;
     border: 0px;
     position: absolute;
-    background: cornflowerblue;
+    background: #0ab332;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    /* border-radius: 10px; */
+    border-radius: 10px 0 0px 10px;
     vertical-align: middle;
     line-height: 40px;
     /* margin: auto auto; */
@@ -151,10 +139,10 @@ img.img-carousel{
     /* margin-top: 11px; */
     /* border: solid 1px transparent; */
 }
-.cards-container{
-    width: 80%;
+.cards-container {
+    width: 90%;
     position: absolute;
-    margin:  15px 10%;
+    margin: 15px 5%;
 }
 .cont-cards-left{
     width: 60%;
@@ -164,11 +152,12 @@ img.img-carousel{
     height: auto;
 }
 .card{
-    background: #1D334A;
+    background: white;
     position: relative; 
-    height: 400px;
-    box-shadow: 0 0 15px #1D334A;
+    height: auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
     margin-top: 15px;
+    padding-bottom: 10px;
 }
 .cont-cards-right{
     width: 30%;
@@ -179,11 +168,11 @@ img.img-carousel{
 }
 .card-mini{
     height: 150px;
-    background: #1D334A;
+    background: white;
     position: relative;
     margin-top: 15px;
     width: 100%;
-    box-shadow: 0 0 15px #1D334A;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 }
 .ranking{
     height: 300px;
@@ -193,34 +182,178 @@ ol.ranking{
     margin: 15px;
 }
 ol.ranking li{
-    color: white;
+    color: black;
     width: 90%;
     border-bottom: dotted 1px white;
     
 }
 .card-mini-title{
-    text-align: center;
-    color: white;
-    width: 60%;
-    border-bottom: solid 1px white;
-    margin: auto;
-    height: 30px;
+    width: 62%;
+    font-size: 28px;
+    margin-left: 8px;
+    padding: 5px 15px;
+    color: #0ab332;
+    /* margin: auto; */
+    text-align: left;
+    height: 33px;
+    border-bottom: solid 3px #0ab332;
+    padding-top: 15px;
     line-height: 30px;
+    /* border-bottom: solid 1px white; */
 }
 .card-mini button{
     position: relative;
 }
+
 .card-title{
-    width: 60%;
-    color: white;
-    margin: auto;
-    text-align: center;
-    height: 30px;
+    width: 45%;
+    font-size: 28px;
+    margin-left: 8px;
+    padding: 5px 15px;
+    color: #0ab332;
+    /* margin: auto; */
+    text-align: left;
+    height: 33px;
+    border-bottom: solid 3px #0ab332;
+    padding-top: 15px;
     line-height: 30px;
-    border-bottom: solid 1px white;
+    /* border-bottom: solid 1px white; */
 }
 .card-content{
-    width: 80%;
+    width: 90%;
     margin: 15px auto;
-    color: white;
+    color: BLACK;
 }
+.cont-carousel{
+        /* background: red; */
+        width: 90%;
+        height: 500px;
+        margin-top: 15px;
+        margin-left: 5%;
+        position: relative;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.cont-principal {
+    /* width: calc(85% - 15px); */
+    /* height: auto; */
+    background: transparent;
+    /* position: absolute; */
+    /* right: 0; */
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.titulo-ver-mas {
+    display: flex;
+    margin: auto;
+    /* height: 10%; */
+    position: absolute;
+    margin-top: -5%;
+}
+.carousel {
+    background: gray;
+    width: 70%;
+    display: inline-block;
+    height: 111%;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+}
+.cont-descripcion {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    float: right;
+    background-color: #ffffff;
+    color: black;
+    top: 0;
+}
+.cont-descripcion{
+    display: inline-block;
+    height: 111%;
+    width: 30%;
+    float: right;
+    background-color: #ffffff;
+    color: black;
+    top: 0;
+  }
+  .cont-descripcion .cont-miniaturas table{
+    margin: auto;
+    width: 90%;
+  }
+  .cont-descripcion .cont-miniaturas td{
+    padding: 5px;
+  }
+  .cont-descripcion .cont-miniaturas img {
+    width: 100%;
+    height: 75px;
+  }
+  .descripcion-title{
+    padding: 5px 15px;
+    margin: 15px auto 15px auto;
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #0ab332;
+  }
+  .descripcion-text{
+    height: auto;
+    padding: 0px 15px 15px 15px;
+    max-height: 80%;font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+  }
+  .btn-ver-mas-info{
+    color: white;
+    height: 50px;
+    position: absolute;
+    padding: 0 40px;
+    font-size: 21px;
+    line-height: 4px;
+    margin-left: 15px;
+    text-transform: uppercase;
+  }
+  .btn{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #53d672; 
+    color: black;
+    cursor: pointer;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #53d672;
+  
+  }
+  .content-minimo {
+    width: calc(45% - 18px);
+    display: inline-flex;
+    padding-right: 15px;
+    border-right: solid 4px #0ab332;
+    
+}
+.content-recomendado {
+    width: 50%;
+    display: inline-flex;
+    margin-left: 30px;
+}
+.content-text{
+    position: relative;
+    margin: 35px 0px;
+}
+.card-content-title{
+    width: 100%;
+    position: absolute;
+    color: #0ab332;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.item {
+    color: #0ab332;
+}
+.item-text {
+    padding-left: 15px;
+    font-size: 13px;
+}
+
