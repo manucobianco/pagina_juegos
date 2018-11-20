@@ -349,5 +349,28 @@
       </div>
     </div>
     <footer></footer>
+    <script src="js/codebird.js"></script>
+    <script type="text/javascript">
+    //esto hace la conexion
+      var cb = new Codebird;
+      cb.setConsumerKey("iMIqsnJdYAhHWtxAEqxIK5H0r", "TaCjzIaK8AsVnPdzBhRfBWX5rzZUMu2Ss1Lqk4EmSbjngVBCor");
+      var params = {
+        q: "Nioh"
+      };
+
+      cb.__call(
+        "search_tweets",
+        params,
+        function(reply) {
+          // aca salen los tweets
+          console.log(reply);
+        },
+        true // this parameter required
+      );
+      /* cb.__call("search_tweets", params, function(reply) {
+        // ...
+        console.log(reply);
+      }); */
+      </script>
   </body>
 </html>
